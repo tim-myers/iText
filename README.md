@@ -6,9 +6,9 @@ using System.IO;
 
 namespace BMC<br />
 {
-    class iText_API
+    class iText_API<br />
     {        
-        public static void compressPDF(string existingFileFullPath, string outputFileFullPath)
+        public static void compressPDF(string existingFileFullPath, string outputFileFullPath)<br />
         {
             // use iText to reduce PDF file size
             using (var memoryStream = new MemoryStream())
