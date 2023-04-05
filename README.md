@@ -39,7 +39,3 @@ namespace BMC
 }
 </code></pre>
 
-<pre><code class='language-cs'>
-Console.WriteLine("Fenced code blocks ftw!");
-</code></pre>
-
