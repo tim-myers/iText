@@ -1,6 +1,6 @@
 ### Example of PDF File Compression using iText 7
 
-<pre>
+<pre><code class='language-cs'>
 using iText.Kernel.Pdf;
 using iText.Kernel.Utils;
 using System.IO;
@@ -37,5 +37,5 @@ namespace BMC
         }
     }
 }
-</pre>
+</code></pre>
 
