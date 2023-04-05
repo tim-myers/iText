@@ -4,7 +4,7 @@
 using iText.Kernel.Utils;
 using System.IO;
 
-namespace BMC
+namespace BMC    
 {
     class iText_API
     {        
