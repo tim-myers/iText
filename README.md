@@ -1,1 +1,1 @@
-### PDF File Compression using iText 7
+### Example of PDF File Compression using iText 7
