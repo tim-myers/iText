@@ -1,14 +1,15 @@
 ### Example of PDF File Compression using iText 7
 
-<P>using iText.Kernel.Pdf;
+<pre>
+using iText.Kernel.Pdf;
 using iText.Kernel.Utils;
 using System.IO;
 
-namespace BMC<br />
+namespace BMC
 {
-    class iText_API<br />
+    class iText_API
     {        
-        public static void compressPDF(string existingFileFullPath, string outputFileFullPath)<br />
+        public static void compressPDF(string existingFileFullPath, string outputFileFullPath)
         {
             // use iText to reduce PDF file size
             using (var memoryStream = new MemoryStream())
@@ -26,9 +27,7 @@ namespace BMC<br />
                                 merge.Merge(SourceDocument1, 1, SourceDocument1.GetNumberOfPages());
                                 merge.Close();
                                 SourceDocument1.Close();
-
                                 byte[] result = memoryStream.ToArray();
-
                                 File.WriteAllBytes(outputFileFullPath, result);
                             }
                         }
@@ -38,7 +37,5 @@ namespace BMC<br />
         }
     }
 }
-
-
-</p>
+</pre>
 
